@@ -1,0 +1,280 @@
+{
+  "address": "0x506F00b78Ef0302a2651e73596f5b90D3322465e",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_lockUpPeriod",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "user",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "Deposited",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "user",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "Withdrawn",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "deposit",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "deposits",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "depositTime",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "user",
+          "type": "address"
+        }
+      ],
+      "name": "getDepositBalance",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getUnlockTime",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "lockUpPeriod",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "ownerWithdraw",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_newLockUpPeriod",
+          "type": "uint256"
+        }
+      ],
+      "name": "setLockUpPeriod",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "withdraw",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0xe7e232533c43a73f2fa9a28a9909bc9d44219d1e5069c73af8d9207cacbb75a0",
+  "receipt": {
+    "to": null,
+    "from": "0x0562eb1D09DdCD01534D4CC74EACE1Ed0d197d07",
+    "contractAddress": "0x506F00b78Ef0302a2651e73596f5b90D3322465e",
+    "transactionIndex": 61,
+    "gasUsed": "420497",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x9b9047a912ab4a5a2f7e21d424018fe2362ba87d32ca0f04361d7e195e4ece59",
+    "transactionHash": "0xe7e232533c43a73f2fa9a28a9909bc9d44219d1e5069c73af8d9207cacbb75a0",
+    "logs": [],
+    "blockNumber": 7287701,
+    "cumulativeGasUsed": "7162275",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [
+    20
+  ],
+  "numDeployments": 1,
+  "solcInputHash": "ffa8c34be4e4c2985026f85165ebb53f",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_lockUpPeriod\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"user\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"Deposited\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"user\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"Withdrawn\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"deposit\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"deposits\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"depositTime\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"user\",\"type\":\"address\"}],\"name\":\"getDepositBalance\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getUnlockTime\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"lockUpPeriod\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"ownerWithdraw\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_newLockUpPeriod\",\"type\":\"uint256\"}],\"name\":\"setLockUpPeriod\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"withdraw\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/PiggyBank.sol\":\"PiggyBank\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/PiggyBank.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity ^0.8.0;\\n\\ncontract PiggyBank {\\n    address public owner; // Owner of the piggy bank (could be the contract deployer)\\n    uint public lockUpPeriod; // Lock-up period in seconds\\n\\n    // Struct to represent each user's deposit information\\n    struct Deposit {\\n        uint amount; // Amount of Ether the user has deposited\\n        uint depositTime; // Timestamp of when the deposit was made\\n    }\\n\\n    mapping(address => Deposit) public deposits; // Mapping from user address to their deposit details\\n\\n    event Deposited(address indexed user, uint amount);\\n    event Withdrawn(address indexed user, uint amount);\\n\\n    // Modifier to ensure only the owner can withdraw or set the lock-up period\\n    modifier onlyOwner() {\\n        require(msg.sender == owner, \\\"Not the contract owner\\\");\\n        _;\\n    }\\n\\n    // Constructor to set the initial owner and the lock-up period\\n    constructor(uint _lockUpPeriod) {\\n        owner = msg.sender;\\n        lockUpPeriod = _lockUpPeriod; // Set the lock-up period (in seconds)\\n    }\\n\\n    // Deposit Ether into the PiggyBank\\n    function deposit() external payable {\\n        require(msg.value > 0, \\\"Must send Ether to deposit\\\");\\n\\n        Deposit storage userDeposit = deposits[msg.sender];\\n\\n        // If the user already has a deposit, we just add to it\\n        userDeposit.amount += msg.value;\\n\\n        // If this is the user's first deposit, we set the deposit time\\n        if (userDeposit.depositTime == 0) {\\n            userDeposit.depositTime = block.timestamp;\\n        }\\n\\n        emit Deposited(msg.sender, msg.value);\\n    }\\n\\n    // Withdraw funds after the lock-up period has passed\\n    function withdraw() external {\\n        Deposit storage userDeposit = deposits[msg.sender];\\n        require(userDeposit.amount > 0, \\\"No funds to withdraw\\\");\\n        require(block.timestamp >= userDeposit.depositTime + lockUpPeriod, \\\"Funds are still locked\\\");\\n\\n        uint amountToWithdraw = userDeposit.amount;\\n        userDeposit.amount = 0; // Reset the user's deposit\\n\\n        // Transfer the funds back to the user\\n        payable(msg.sender).transfer(amountToWithdraw);\\n\\n        emit Withdrawn(msg.sender, amountToWithdraw);\\n    }\\n\\n    // View the balance of the user's deposit\\n    function getDepositBalance(address user) external view returns (uint) {\\n        return deposits[user].amount;\\n    }\\n\\n    // View the time at which the user can withdraw their funds\\n    function getUnlockTime() external view returns (uint) {\\n        return deposits[msg.sender].depositTime + lockUpPeriod;\\n    }\\n\\n    // Owner can update the lock-up period (if desired)\\n    function setLockUpPeriod(uint _newLockUpPeriod) external onlyOwner {\\n        lockUpPeriod = _newLockUpPeriod;\\n    }\\n\\n    // Owner can withdraw all funds (for example, in case of emergencies)\\n    function ownerWithdraw(uint amount) external onlyOwner {\\n        require(amount <= address(this).balance, \\\"Insufficient balance in the contract\\\");\\n        payable(owner).transfer(amount);\\n    }\\n}\\n\",\"keccak256\":\"0x4ba220ba2e9a4f52e515d1c0a39ec473a55a5f12f4260e3146fcea5300879a6b\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5060405161064238038061064283398101604081905261002f91610049565b600080546001600160a01b03191633179055600155610062565b60006020828403121561005b57600080fd5b5051919050565b6105d1806100716000396000f3fe6080604052600436106100865760003560e01c80636c6925f9116100595780636c6925f91461010a5780638da5cb5b14610120578063d0e30db014610158578063ed05ae7814610160578063fc7e286d1461019657600080fd5b806333f707d11461008b5780633ccfd60b146100ad5780635b02b729146100c2578063602bc62b146100e2575b600080fd5b34801561009757600080fd5b506100ab6100a636600461052b565b6101df565b005b3480156100b957600080fd5b506100ab6102d0565b3480156100ce57600080fd5b506100ab6100dd36600461052b565b6103ea565b3480156100ee57600080fd5b506100f7610442565b6040519081526020015b60405180910390f35b34801561011657600080fd5b506100f760015481565b34801561012c57600080fd5b50600054610140906001600160a01b031681565b6040516001600160a01b039091168152602001610101565b6100ab610468565b34801561016c57600080fd5b506100f761017b366004610544565b6001600160a01b031660009081526002602052604090205490565b3480156101a257600080fd5b506101ca6101b1366004610544565b6002602052600090815260409020805460019091015482565b60408051928352602083019190915201610101565b6000546001600160a01b031633146102375760405162461bcd60e51b81526020600482015260166024820152752737ba103a34329031b7b73a3930b1ba1037bbb732b960511b60448201526064015b60405180910390fd5b478111156102935760405162461bcd60e51b8152602060048201526024808201527f496e73756666696369656e742062616c616e636520696e2074686520636f6e746044820152631c9858dd60e21b606482015260840161022e565b600080546040516001600160a01b039091169183156108fc02918491818181858888f193505050501580156102cc573d6000803e3d6000fd5b5050565b33600090815260026020526040902080546103245760405162461bcd60e51b81526020600482015260146024820152734e6f2066756e647320746f20776974686472617760601b604482015260640161022e565b60015481600101546103369190610574565b42101561037e5760405162461bcd60e51b8152602060048201526016602482015275119d5b991cc8185c99481cdd1a5b1b081b1bd8dad95960521b604482015260640161022e565b80546000808355604051339183156108fc02918491818181858888f193505050501580156103b0573d6000803e3d6000fd5b5060405181815233907f7084f5476618d8e60b11ef0d7d3f06914655adb8793e28ff7f018d4c76d505d59060200160405180910390a25050565b6000546001600160a01b0316331461043d5760405162461bcd60e51b81526020600482015260166024820152752737ba103a34329031b7b73a3930b1ba1037bbb732b960511b604482015260640161022e565b600155565b60018054336000908152600260205260408120909201546104639190610574565b905090565b600034116104b85760405162461bcd60e51b815260206004820152601a60248201527f4d7573742073656e6420457468657220746f206465706f736974000000000000604482015260640161022e565b3360009081526002602052604081208054909134918391906104db908490610574565b909155505060018101546000036104f3574260018201555b60405134815233907f2da466a7b24304f47e87fa2e1e5a81b9831ce54fec19055ce277ca2f39ba42c49060200160405180910390a250565b60006020828403121561053d57600080fd5b5035919050565b60006020828403121561055657600080fd5b81356001600160a01b038116811461056d57600080fd5b9392505050565b8082018082111561059557634e487b7160e01b600052601160045260246000fd5b9291505056fea26469706673582212201c0bbb86b48862eef17356602ba18a022fa94bc6c5b0c2dca4b9b790828835d164736f6c63430008140033",
+  "deployedBytecode": "0x6080604052600436106100865760003560e01c80636c6925f9116100595780636c6925f91461010a5780638da5cb5b14610120578063d0e30db014610158578063ed05ae7814610160578063fc7e286d1461019657600080fd5b806333f707d11461008b5780633ccfd60b146100ad5780635b02b729146100c2578063602bc62b146100e2575b600080fd5b34801561009757600080fd5b506100ab6100a636600461052b565b6101df565b005b3480156100b957600080fd5b506100ab6102d0565b3480156100ce57600080fd5b506100ab6100dd36600461052b565b6103ea565b3480156100ee57600080fd5b506100f7610442565b6040519081526020015b60405180910390f35b34801561011657600080fd5b506100f760015481565b34801561012c57600080fd5b50600054610140906001600160a01b031681565b6040516001600160a01b039091168152602001610101565b6100ab610468565b34801561016c57600080fd5b506100f761017b366004610544565b6001600160a01b031660009081526002602052604090205490565b3480156101a257600080fd5b506101ca6101b1366004610544565b6002602052600090815260409020805460019091015482565b60408051928352602083019190915201610101565b6000546001600160a01b031633146102375760405162461bcd60e51b81526020600482015260166024820152752737ba103a34329031b7b73a3930b1ba1037bbb732b960511b60448201526064015b60405180910390fd5b478111156102935760405162461bcd60e51b8152602060048201526024808201527f496e73756666696369656e742062616c616e636520696e2074686520636f6e746044820152631c9858dd60e21b606482015260840161022e565b600080546040516001600160a01b039091169183156108fc02918491818181858888f193505050501580156102cc573d6000803e3d6000fd5b5050565b33600090815260026020526040902080546103245760405162461bcd60e51b81526020600482015260146024820152734e6f2066756e647320746f20776974686472617760601b604482015260640161022e565b60015481600101546103369190610574565b42101561037e5760405162461bcd60e51b8152602060048201526016602482015275119d5b991cc8185c99481cdd1a5b1b081b1bd8dad95960521b604482015260640161022e565b80546000808355604051339183156108fc02918491818181858888f193505050501580156103b0573d6000803e3d6000fd5b5060405181815233907f7084f5476618d8e60b11ef0d7d3f06914655adb8793e28ff7f018d4c76d505d59060200160405180910390a25050565b6000546001600160a01b0316331461043d5760405162461bcd60e51b81526020600482015260166024820152752737ba103a34329031b7b73a3930b1ba1037bbb732b960511b604482015260640161022e565b600155565b60018054336000908152600260205260408120909201546104639190610574565b905090565b600034116104b85760405162461bcd60e51b815260206004820152601a60248201527f4d7573742073656e6420457468657220746f206465706f736974000000000000604482015260640161022e565b3360009081526002602052604081208054909134918391906104db908490610574565b909155505060018101546000036104f3574260018201555b60405134815233907f2da466a7b24304f47e87fa2e1e5a81b9831ce54fec19055ce277ca2f39ba42c49060200160405180910390a250565b60006020828403121561053d57600080fd5b5035919050565b60006020828403121561055657600080fd5b81356001600160a01b038116811461056d57600080fd5b9392505050565b8082018082111561059557634e487b7160e01b600052601160045260246000fd5b9291505056fea26469706673582212201c0bbb86b48862eef17356602ba18a022fa94bc6c5b0c2dca4b9b790828835d164736f6c63430008140033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 3,
+        "contract": "contracts/PiggyBank.sol:PiggyBank",
+        "label": "owner",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_address"
+      },
+      {
+        "astId": 5,
+        "contract": "contracts/PiggyBank.sol:PiggyBank",
+        "label": "lockUpPeriod",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 15,
+        "contract": "contracts/PiggyBank.sol:PiggyBank",
+        "label": "deposits",
+        "offset": 0,
+        "slot": "2",
+        "type": "t_mapping(t_address,t_struct(Deposit)10_storage)"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_mapping(t_address,t_struct(Deposit)10_storage)": {
+        "encoding": "mapping",
+        "key": "t_address",
+        "label": "mapping(address => struct PiggyBank.Deposit)",
+        "numberOfBytes": "32",
+        "value": "t_struct(Deposit)10_storage"
+      },
+      "t_struct(Deposit)10_storage": {
+        "encoding": "inplace",
+        "label": "struct PiggyBank.Deposit",
+        "members": [
+          {
+            "astId": 7,
+            "contract": "contracts/PiggyBank.sol:PiggyBank",
+            "label": "amount",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256"
+          },
+          {
+            "astId": 9,
+            "contract": "contracts/PiggyBank.sol:PiggyBank",
+            "label": "depositTime",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256"
+          }
+        ],
+        "numberOfBytes": "64"
+      },
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}
