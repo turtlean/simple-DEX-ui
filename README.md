@@ -18,5 +18,5 @@ https://sepolia.scrollscan.com/address/0x458A37Ef95BDA2950Ec4C879C7E714Ae7b2A241
 
 ## Video
 
-[Watch the demo](./media/video.mov)
+[Watch the demo](https://drive.google.com/file/d/1_R7ttS05Yid4tAGooRYs7bFrO2YwjMS6/view?usp=sharing)
 
